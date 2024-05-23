@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto de M2</title>
+    <link rel="stylesheet" href="css/stylacho.css">
+  </head>
+  <body onload=" getUrl()">
+    <header class="header">
+      <a href="index.html" class="logo">Proyecto M2</a>
+      <div class="header-right">
+        <a class="active" href="index.html">Inicio</a>
+        <a href="Serie.html">Series</a>
+        <a href="pelicula.html">Peliculas</a>
+        <a href="documental.html">Documentales</a>
+      </div>
+    </header>
+    <section>
+      <h1>Detales de Peliculas </h1>
+     <div class="moviDetalle">
+        <div class="tarje">
+            <h3 id="titulo"></h3>
+            <img id="imgPelicula" src="" alt="" />
+        </div>
+        <div class="conte">
+             <strong>Reseña</strong>
+            <p id="resumen"></p>
+            <small >Director:<strong id="director"></strong> </small>
+            <small>Año:<strong id="ano"></strong></small>
+            <small>Duración:<strong id="duracion"></strong></small>
+            <small>Puntuacion:<strong id="punta"></strong></small>
+            
+            <strong>Generos</strong>
+            <ul id="gene">
+
+            </ul>
+
+              <a href="index.html" class="btn">Regresar</a>      
+        </div>
+     </div>
+      </section>
+      <footer>
+        derechos reservados soy Henry | realizado por : Rafael Orozco
+      </footer>
+
+    
+
+    <script src="./scripts/tempData.js"></script>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
